@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+.pytest_cache/
+*.mz
+*.restored
+test.txt
+empty.txt
