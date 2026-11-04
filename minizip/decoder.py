@@ -12,7 +12,7 @@ def decode(blob: bytes) -> bytes:
 
     bits = "".join(f"{b:08b}" for b in encoded)
     if padding:
-        pass
+        bits = bits[:-padding]
 
     out = bytearray()
     node = root
