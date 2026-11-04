@@ -1,4 +1,6 @@
 
+
+![CI](https://github.com/<your-username>/mini-zip/actions/workflows/ci.yml/badge.svg)
 ## Run with Docker
 
 ```bash
